@@ -19,16 +19,15 @@ npm i
 npm start
 ```
 
+Open <http://localhost:3000>
+
+<!--
 ## Examples
 - BurgerMenu
 - DropdownMenu
 - Carousel - add to Rebass
+- Modal Overlay
+-->
 
-## Additions to Rebass
-- Carousel
-- BaseButton
-- Rating
-
-Open <http://localhost:3000>
 
 MIT License
