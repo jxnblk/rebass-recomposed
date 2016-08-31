@@ -7,7 +7,6 @@ import {
   Checkbox,
   Radio,
   Button,
-  Space,
 } from 'rebass'
 import withForm from './withForm'
 
@@ -52,7 +51,6 @@ const SignUpForm = ({
         label='Dogs'
         value='dogs'
         mr={2}
-        checked={animal === 'cats'}
         checked={animal === 'dogs'}
         onChange={onChange} />
       <Radio

@@ -5,8 +5,7 @@ import {
   Heading,
   Donut,
   Button,
-  Slider,
-  Space
+  Slider
 } from 'rebass'
 import withCounter from './withCounter'
 
@@ -47,7 +46,7 @@ const Meter = ({
       label='Count'
       hideLabel
       color='primary'
-      onChange={({ target: { value } }) => setCount(n => parseInt(value))}
+      onChange={({ target: { value } }) => setCount(n => parseInt(value, 10))}
       value={count % 100}
     />
   </div>

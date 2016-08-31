@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-import { Flex, Box } from 'reflexbox'
 import {
   Base,
   Heading,

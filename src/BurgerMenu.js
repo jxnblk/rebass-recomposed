@@ -1,11 +1,7 @@
 
 import React from 'react'
 import {
-  withState
-} from 'recompose'
-import {
   Heading,
-  Fixed,
   Drawer
 } from 'rebass'
 import { Burger, X } from 'reline'
